@@ -10,7 +10,7 @@ This contract ensures that reward distribution is not flat, but instead **weight
 
 This contract is entirely dependent on the successful deployment and operation of the following contract from your previous project:
 
-| Contract | Function | Address (Example) |
+| Contract | Function | Address |
 | :--- | :--- | :--- |
 | **SBTReward.sol** | Provides the user's `highestSBTLevel` (reputation tier) for weighting calculation. | `0x5ba23E827e684F8171983461f1D0FC3b41bECbC3` |
 
