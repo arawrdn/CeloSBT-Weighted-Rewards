@@ -48,18 +48,4 @@ This weighted transfer incentivizes users to earn higher SBT tiers, thus promoti
 1.  Node.js and npm/yarn.
 2.  Hardhat installed globally or locally.
 3.  A Celo wallet funded with CELO/cUSD for gas fees.
-4.  Your existing `SBTReward.sol` contract must be deployed on the target Celo network (Alfajores or Mainnet).
-
-### 1. Configuration
-
-Ensure your `.env` file is properly configured with your keys and contract addresses.
-
-```env
-MNEMONIC="..."
-ALFAJORES_URL="..."
-
-# Addresses from the previous CeloReputationDAO-Layer project
-SBT_REWARD_ADDRESS="0x5ba23E827e684F8171983461f1D0FC3b41bECbC3"
-
-# Address of the token this contract will distribute (e.g., cUSD, cEUR, or a custom token)
-REWARD_TOKEN_ADDRESS="0x..."
+4.  Your existing `SBTReward.sol` contract must be deployed on the target Celo network.
